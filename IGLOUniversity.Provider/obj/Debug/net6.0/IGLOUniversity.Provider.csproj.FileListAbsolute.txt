@@ -1,0 +1,63 @@
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.Provider.deps.json
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.Provider.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.Provider.pdb
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.DataAccess.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.Repository.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.Utility.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.ViewModel.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.Repository.pdb
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.DataAccess.pdb
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.Utility.pdb
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.ViewModel.pdb
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\IGLOUniversity.Provider.csproj.AssemblyReference.cache
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\IGLOUniversity.Provider.GeneratedMSBuildEditorConfig.editorconfig
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\IGLOUniversity.Provider.AssemblyInfoInputs.cache
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\IGLOUniversity.Provider.AssemblyInfo.cs
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\IGLOUniversity.Provider.csproj.CoreCompileInputs.cache
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\IGLOUniversity.Provider.csproj.CopyComplete
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\IGLOUniversity.Provider.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\refint\IGLOUniversity.Provider.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\IGLOUniversity.Provider.pdb
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\ref\IGLOUniversity.Provider.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.Provider.deps.json
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.Provider.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.Provider.pdb
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.DataAccess.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.Repository.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.Utility.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.ViewModel.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.Repository.pdb
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.DataAccess.pdb
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.Utility.pdb
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.ViewModel.pdb
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\IGLOUniversity.Provider.csproj.AssemblyReference.cache
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\IGLOUniversity.Provider.GeneratedMSBuildEditorConfig.editorconfig
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\IGLOUniversity.Provider.AssemblyInfoInputs.cache
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\IGLOUniversity.Provider.AssemblyInfo.cs
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\IGLOUniversity.Provider.csproj.CoreCompileInputs.cache
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\IGLOUniversity.Provider.csproj.CopyComplete
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\IGLOUniversity.Provider.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\refint\IGLOUniversity.Provider.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\IGLOUniversity.Provider.pdb
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\ref\IGLOUniversity.Provider.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.Provider.deps.json
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.Provider.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.Provider.pdb
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.DataAccess.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.Repository.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.Utility.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.ViewModel.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.Repository.pdb
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.DataAccess.pdb
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.Utility.pdb
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Provider\bin\Debug\net6.0\IGLOUniversity.ViewModel.pdb
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\IGLOUniversity.Provider.csproj.AssemblyReference.cache
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\IGLOUniversity.Provider.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\IGLOUniversity.Provider.AssemblyInfoInputs.cache
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\IGLOUniversity.Provider.AssemblyInfo.cs
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\IGLOUniversity.Provider.csproj.CoreCompileInputs.cache
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\IGLOUniversity.Provider.csproj.CopyComplete
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\IGLOUniversity.Provider.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\refint\IGLOUniversity.Provider.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\IGLOUniversity.Provider.pdb
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Provider\obj\Debug\net6.0\ref\IGLOUniversity.Provider.dll

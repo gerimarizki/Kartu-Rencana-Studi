@@ -1,0 +1,252 @@
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\appsettings.Development.json
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\appsettings.json
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Web.UI.staticwebassets.runtime.json
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Web.UI.exe
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Web.UI.deps.json
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Web.UI.runtimeconfig.json
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Web.UI.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Web.UI.pdb
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Humanizer.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.csproj.AssemblyReference.cache
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.GeneratedMSBuildEditorConfig.editorconfig
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.AssemblyInfoInputs.cache
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.AssemblyInfo.cs
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.csproj.CoreCompileInputs.cache
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.MvcApplicationPartsAssemblyInfo.cache
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.RazorAssemblyInfo.cache
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.RazorAssemblyInfo.cs
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\staticwebassets\msbuild.IGLOUniversity.Web.UI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\staticwebassets\msbuild.build.IGLOUniversity.Web.UI.props
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.IGLOUniversity.Web.UI.props
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.IGLOUniversity.Web.UI.props
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\staticwebassets.pack.json
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\staticwebassets.build.json
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\staticwebassets.development.json
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\scopedcss\bundle\IGLOUniversity.Web.UI.styles.css
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\scopedcss\projectbundle\IGLOUniversity.Web.UI.bundle.scp.css
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.csproj.CopyComplete
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\refint\IGLOUniversity.Web.UI.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.pdb
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.genruntimeconfig.cache
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\ref\IGLOUniversity.Web.UI.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.DataAccess.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.DataAccess.pdb
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\BCrypt.Net-Next.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Provider.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Repository.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Utility.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.ViewModel.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Provider.pdb
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Repository.pdb
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Utility.pdb
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.ViewModel.pdb
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\appsettings.Development.json
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\appsettings.json
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Web.UI.staticwebassets.runtime.json
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Web.UI.exe
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Web.UI.deps.json
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Web.UI.runtimeconfig.json
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Web.UI.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Web.UI.pdb
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\BCrypt.Net-Next.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Humanizer.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.DataAccess.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Provider.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Repository.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Utility.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.ViewModel.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Provider.pdb
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.DataAccess.pdb
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Repository.pdb
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Utility.pdb
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.ViewModel.pdb
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.csproj.AssemblyReference.cache
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.GeneratedMSBuildEditorConfig.editorconfig
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.AssemblyInfoInputs.cache
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.AssemblyInfo.cs
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.csproj.CoreCompileInputs.cache
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.MvcApplicationPartsAssemblyInfo.cache
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.RazorAssemblyInfo.cache
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.RazorAssemblyInfo.cs
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\staticwebassets\msbuild.IGLOUniversity.Web.UI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\staticwebassets\msbuild.build.IGLOUniversity.Web.UI.props
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.IGLOUniversity.Web.UI.props
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.IGLOUniversity.Web.UI.props
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\staticwebassets.pack.json
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\staticwebassets.build.json
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\staticwebassets.development.json
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\scopedcss\bundle\IGLOUniversity.Web.UI.styles.css
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\scopedcss\projectbundle\IGLOUniversity.Web.UI.bundle.scp.css
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.csproj.CopyComplete
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\refint\IGLOUniversity.Web.UI.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.pdb
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.genruntimeconfig.cache
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\ref\IGLOUniversity.Web.UI.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\appsettings.Development.json
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\appsettings.json
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Web.UI.staticwebassets.runtime.json
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Web.UI.exe
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Web.UI.deps.json
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Web.UI.runtimeconfig.json
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Web.UI.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Web.UI.pdb
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\BCrypt.Net-Next.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Humanizer.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.DataAccess.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Provider.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Repository.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Utility.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.ViewModel.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Provider.pdb
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.DataAccess.pdb
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Repository.pdb
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.Utility.pdb
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\bin\Debug\net6.0\IGLOUniversity.ViewModel.pdb
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.csproj.AssemblyReference.cache
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.AssemblyInfoInputs.cache
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.AssemblyInfo.cs
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.csproj.CoreCompileInputs.cache
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.MvcApplicationPartsAssemblyInfo.cache
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.RazorAssemblyInfo.cache
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.RazorAssemblyInfo.cs
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\staticwebassets\msbuild.IGLOUniversity.Web.UI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\staticwebassets\msbuild.build.IGLOUniversity.Web.UI.props
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.IGLOUniversity.Web.UI.props
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.IGLOUniversity.Web.UI.props
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\staticwebassets.pack.json
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\staticwebassets.build.json
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\staticwebassets.development.json
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\scopedcss\bundle\IGLOUniversity.Web.UI.styles.css
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\scopedcss\projectbundle\IGLOUniversity.Web.UI.bundle.scp.css
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.csproj.CopyComplete
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\refint\IGLOUniversity.Web.UI.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.pdb
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\IGLOUniversity.Web.UI.genruntimeconfig.cache
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\obj\Debug\net6.0\ref\IGLOUniversity.Web.UI.dll

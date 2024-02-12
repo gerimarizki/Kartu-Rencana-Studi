@@ -1,0 +1,67 @@
+﻿@using IGLOUniversity.ViewModel.MataKuliah
+@model MataKuliahIndexVM
+@{
+    ViewData["Title"] = "Mata Kuliah Index";
+}
+@section breadCrumbs{
+    <span>Selamat Datang di aplikasi Universitas IGLO</span>
+}
+@section modalDialog{
+    <div class="modal-layer">
+        <partial name="_UpsertMataKuliahDialog" />
+        <partial name="_DeleteMataKuliahDialog" />
+    </div>
+    <script>
+        $(".close-button").click(function (event) {
+            $(".modal-layer").removeAttr("style");
+            $(".popup-dialog").removeAttr("style");
+            location.reload();
+        });
+    </script>
+}
+
+<h1>Master Mata Kuliah</h1>
+<div class="grid-container category-index">
+    <br />
+    <a asp-action="Insert" class="blue-button create-button">Tambah Mata Kuliah</a>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nama</th>
+                <th>SKS</th>
+                <th>Deskripsi</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mataKuliah in Model.Grids)
+            {
+                <tr>
+                    <td>@mataKuliah.Id</td>
+                    <td>@mataKuliah.Nama</td>
+                    <td>@mataKuliah.Sks</td>
+                    <td>@mataKuliah.Deskripsi</td>
+                    <td>
+                        <a asp-action="Update" asp-route-id="@mataKuliah.Id" class="blue-button update-button">Ubah</a>
+                        <a asp-action="Delete" asp-route-id="@mataKuliah.Id" class="blue-button delete-button">Hapus</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">
+                    <div class="pagination">
+                        <div>
+                            @for (int index = 1; index <= Model.TotalPages; index++)
+                            {
+                                <a asp-route-page="@index">@index</a>
+                            }
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</div>

@@ -1,0 +1,67 @@
+﻿@using IGLOUniversity.ViewModel.User
+@model UserIndexVM
+@{
+    ViewData["Title"] = "User Index";
+}
+@section breadCrumbs{
+    <span>Selamat Datang di aplikasi Universitas IGLO</span>
+}
+@section modalDialog{
+    <div class="modal-layer">
+        <partial name="_UpsertUserDialog" />
+        <partial name="_DeleteUserDialog" />
+    </div>
+    <script>
+        $(".close-button").click(function (event) {
+            $(".modal-layer").removeAttr("style");
+            $(".popup-dialog").removeAttr("style");
+            location.reload();
+        });
+    </script>
+}
+
+<h1>User</h1>
+<div class="grid-container category-index">
+    <br />
+    <a asp-action="Insert" class="blue-button create-button">Tambah User</a>
+    <table>
+        <thead>
+            <tr>
+                <th>User Name</th>
+                <th>Status</th>
+                <th>Admin</th>
+                <th>Mahasiswa</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model.Grids)
+            {
+                <tr>
+                    <td>@user.UserName</td>
+                    <td>@user.Status</td>
+                    <td>@user.IsAdmin</td>
+                    <td>@user.Mahasiswa</td>
+                    <td>
+                        <a asp-action="Update" asp-route-id="@user.Id" class="blue-button update-button">Ubah</a>
+                        <a asp-action="Delete" asp-route-id="@user.Id" class="blue-button delete-button">Hapus</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">
+                    <div class="pagination">
+                        <div>
+                            @for (int index = 1; index <= Model.TotalPages; index++)
+                            {
+                                <a asp-route-page="@index">@index</a>
+                            }
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</div>

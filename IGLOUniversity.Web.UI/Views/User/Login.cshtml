@@ -1,0 +1,14 @@
+﻿@using IGLOUniversity.ViewModel.User
+@model LoginVM
+@{
+    ViewData["Title"] = "Login";
+    Layout = "_AuthenticationLayout";
+}
+<h1>Sign In</h1>
+<form asp-action="Login" asp-route-returnUrl="@ViewBag.ReturnUrl" method="post">
+    <input type="text" asp-for="Username" placeholder="username" />
+    <span asp-validation-for="Username"></span>
+    <input type="password" asp-for="Password" placeholder="password" />
+    <span asp-validation-for="@Model.Password"></span>
+    <button type="submit">sign in</button>
+</form>

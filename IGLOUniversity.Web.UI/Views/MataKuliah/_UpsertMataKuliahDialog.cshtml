@@ -1,0 +1,110 @@
+﻿<div class="popup-dialog upsert-dialog">
+    <header>
+        <h1><span class="actionType"></span> Mata Kuliah</h1>
+    </header>
+    <form method="post">
+        <input type="hidden" class="id" />
+        <table>
+            <tbody>
+                <tr>
+                    <td>Nama:</td>
+                    <td>
+                        <input type="text" class="nama" maxlength="50" required/>
+                        <div class="validation-message" data-for="Nama"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>SKS:</td>
+                    <td>
+                        <input type="number" class="sks" min="1" max="5" required/>
+                        <div class="validation-message" data-for="Sks"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Deskripsi:</td>
+                    <td>
+                        <textarea class="deskripsi" maxlength="200"></textarea>
+                        <div class="validation-message" data-for="Deskripsi"></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <button class="blue-button" type="submit"><span class="actionType"></span> Mata Kuliah</button>
+        <a href="javascript:;" class="close-button blue-button">Batal</a>
+    </form>
+</div>
+<script>
+    $(".create-button").click(function (event) {
+        event.preventDefault();
+        $(".upsert-dialog .actionType").text("Tambah");
+        $(".upsert-dialog form").attr("class", "Insert");
+        $(".upsert-dialog form .id").val(0);
+        $(".modal-layer").css("display", "flex");
+        $(".upsert-dialog").css("display", "block");
+    });
+
+    $(".update-button").click(function (event) {
+        event.preventDefault();
+        $(".upsert-dialog .actionType").text("Ubah");
+        $(".upsert-dialog form").attr("class", "Update");
+        let actionUrl = $(this).attr("href");
+        $.ajax({
+            url: actionUrl,
+            success: function (data) {
+                $(".upsert-dialog .id").val(data.id);
+                $(".upsert-dialog .nama").val(data.nama);
+                $(".upsert-dialog .sks").val(data.sks);
+                $(".upsert-dialog .deskripsi").val(data.deskripsi);
+                $(".modal-layer").css("display", "flex");
+                $(".upsert-dialog").css("display", "block");
+            },
+            fail: function () { console.log("Fail to retrieve data, check json result."); },
+            error: function () { console.log("Internal Server Error, check server-side."); }
+        });
+    });
+
+    $(".upsert-dialog form").submit(function (event) {
+        event.preventDefault();
+        $(".validation-message").text("");
+        let actionType = $(".upsert-dialog form").attr("class");
+        let urlAction = "/MataKuliah/Save";
+        if (actionType === "Update") {
+            let id = $(".upsert-dialog .id").val();
+            urlAction = `/MataKuliah/Save/${id}`;
+        }
+        var tokenHelper = '@Html.AntiForgeryToken()';
+        let token = $(tokenHelper).val();
+        let viewModel = {
+            "id": $(".upsert-dialog .id").val(),
+            "nama": $(".upsert-dialog .nama").val(),
+            "sks": $(".upsert-dialog .sks").val(),
+            "deskripsi": $(".upsert-dialog .deskripsi").val()
+        };
+        $.ajax({
+            method: "POST", //Http Head
+            url: urlAction,
+            data: JSON.stringify(viewModel), //HTTP Body
+            dataType: "json", //Http Header
+            contentType: "application/json; charset=utf-8", //Http Header
+            headers: { //Http Header
+                "__RequestVerificationToken": token
+            },
+            success: function (response) {
+                if (response.success) {
+                    location.reload();
+                } else {
+                    validateForm(response.validations);
+                }
+            },
+            fail: function () { alert("Fail to retrieve data, check json result."); },
+            error: function () { alert("gagal ubah data mata kuliah"); }
+        });
+    });
+
+    function validateForm(validations) {
+        for (let validation of validations) {
+            $(`.upsert-dialog form [data-for=${validation.propertyName}]`).text(validation.errorMessage);
+        }
+    }
+
+</script>

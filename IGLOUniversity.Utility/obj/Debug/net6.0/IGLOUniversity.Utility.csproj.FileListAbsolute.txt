@@ -1,0 +1,51 @@
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Utility\bin\Debug\net6.0\IGLOUniversity.Utility.deps.json
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Utility\bin\Debug\net6.0\IGLOUniversity.Utility.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Utility\bin\Debug\net6.0\IGLOUniversity.Utility.pdb
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Utility\bin\Debug\net6.0\IGLOUniversity.DataAccess.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Utility\bin\Debug\net6.0\IGLOUniversity.ViewModel.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Utility\bin\Debug\net6.0\IGLOUniversity.ViewModel.pdb
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Utility\bin\Debug\net6.0\IGLOUniversity.DataAccess.pdb
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\IGLOUniversity.Utility.csproj.AssemblyReference.cache
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\IGLOUniversity.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\IGLOUniversity.Utility.AssemblyInfoInputs.cache
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\IGLOUniversity.Utility.AssemblyInfo.cs
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\IGLOUniversity.Utility.csproj.CoreCompileInputs.cache
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\IGLOUniversity.Utility.csproj.CopyComplete
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\IGLOUniversity.Utility.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\refint\IGLOUniversity.Utility.dll
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\IGLOUniversity.Utility.pdb
+D:\BC35\FrameWork\Ujian\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\ref\IGLOUniversity.Utility.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Utility\bin\Debug\net6.0\IGLOUniversity.Utility.deps.json
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Utility\bin\Debug\net6.0\IGLOUniversity.Utility.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Utility\bin\Debug\net6.0\IGLOUniversity.Utility.pdb
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Utility\bin\Debug\net6.0\IGLOUniversity.DataAccess.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Utility\bin\Debug\net6.0\IGLOUniversity.ViewModel.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Utility\bin\Debug\net6.0\IGLOUniversity.ViewModel.pdb
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Utility\bin\Debug\net6.0\IGLOUniversity.DataAccess.pdb
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\IGLOUniversity.Utility.csproj.AssemblyReference.cache
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\IGLOUniversity.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\IGLOUniversity.Utility.AssemblyInfoInputs.cache
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\IGLOUniversity.Utility.AssemblyInfo.cs
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\IGLOUniversity.Utility.csproj.CoreCompileInputs.cache
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\IGLOUniversity.Utility.csproj.CopyComplete
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\IGLOUniversity.Utility.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\refint\IGLOUniversity.Utility.dll
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\IGLOUniversity.Utility.pdb
+D:\BC35\FrameWork\Tes\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\ref\IGLOUniversity.Utility.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Utility\bin\Debug\net6.0\IGLOUniversity.Utility.deps.json
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Utility\bin\Debug\net6.0\IGLOUniversity.Utility.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Utility\bin\Debug\net6.0\IGLOUniversity.Utility.pdb
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Utility\bin\Debug\net6.0\IGLOUniversity.DataAccess.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Utility\bin\Debug\net6.0\IGLOUniversity.ViewModel.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Utility\bin\Debug\net6.0\IGLOUniversity.ViewModel.pdb
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Utility\bin\Debug\net6.0\IGLOUniversity.DataAccess.pdb
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\IGLOUniversity.Utility.csproj.AssemblyReference.cache
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\IGLOUniversity.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\IGLOUniversity.Utility.AssemblyInfoInputs.cache
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\IGLOUniversity.Utility.AssemblyInfo.cs
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\IGLOUniversity.Utility.csproj.CoreCompileInputs.cache
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\IGLOUniversity.Utility.csproj.CopyComplete
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\IGLOUniversity.Utility.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\refint\IGLOUniversity.Utility.dll
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\IGLOUniversity.Utility.pdb
+D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Utility\obj\Debug\net6.0\ref\IGLOUniversity.Utility.dll

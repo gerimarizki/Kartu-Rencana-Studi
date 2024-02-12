@@ -1,0 +1,67 @@
+﻿@using IGLOUniversity.ViewModel.RencanaStudi
+@model RencanaStudiAdminIndexVM
+@{
+    ViewData["Title"] = "Rencana Studi Index";
+}
+@section breadCrumbs{
+    <span>Selamat Datang di aplikasi Universitas IGLO</span>
+}
+@section modalDialog{
+    <div class="modal-layer">
+    </div>
+    <script>
+        $(".close-button").click(function (event) {
+            $(".modal-layer").removeAttr("style");
+            $(".popup-dialog").removeAttr("style");
+            location.reload();
+        });
+    </script>
+}
+
+<h1>Atur Rencana Studi</h1>
+<div class="grid-container category-index">
+    <br />
+    <table>
+        <thead>
+            <tr>
+                <th>NIM</th>
+                <th>Nama</th>
+                <th>Asal SMA</th>
+                <th>Nomor HP</th>
+                <th>Alamat</th>
+                <th>Total SKS</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Grids)
+            {
+                <tr>
+                    <td>@item.Nim</td>
+                    <td>@item.Nama</td>
+                    <td>@item.AsalSma</td>
+                    <td>@item.NomorHp</td>
+                    <td>@item.Alamat</td>
+                    <td>@item.TotalSks</td>
+                    <td>
+                        <a asp-action="Detail" asp-route-id="@item.Id" class="blue-button delete-button">Detail</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="7">
+                    <div class="pagination">
+                        <div>
+                            @for (int index = 1; index <= Model.TotalPages; index++)
+                            {
+                                <a asp-route-page="@index">@index</a>
+                            }
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</div>

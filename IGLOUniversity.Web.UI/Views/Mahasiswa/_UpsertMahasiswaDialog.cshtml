@@ -1,0 +1,145 @@
+﻿<div class="popup-dialog upsert-dialog">
+    <header>
+        <h1><span class="actionType"></span> Mahasiswa</h1>
+    </header>
+    <form method="post">
+        <input type="hidden" class="id" />
+        <table>
+            <tbody>
+                <tr>
+                    <td>NIM:</td>
+                    <td>
+                        <input type="text" class="nim" maxlength="50" required/>
+                        <div class="validation-message" data-for="Nim"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nama Depan:</td>
+                    <td>
+                        <input type="text" class="namaDepan" maxlength="200" required />
+                        <div class="validation-message" data-for="NamaDepan"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nama Tengah:</td>
+                    <td>
+                        <input type="text" class="namaTengah" maxlength="200"/>
+                        <div class="validation-message" data-for="NamaTengah"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nama Belakang:</td>
+                    <td>
+                        <input type="text" class="namaBelakang" maxlength="200"/>
+                        <div class="validation-message" data-for="NamaBelakang"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Asal SMA:</td>
+                    <td>
+                        <input type="text" class="asalSma" maxlength="100" required />
+                        <div class="validation-message" data-for="AsalSma"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nomor HP:</td>
+                    <td>
+                        <input type="text" class="nomorHp" maxlength="13"/>
+                        <div class="validation-message" data-for="NomorHp"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alamat:</td>
+                    <td>
+                        <textarea class="alamat" maxlength="200"></textarea>
+                        <div class="validation-message" data-for="Alamat"></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <button class="blue-button" type="submit"><span class="actionType"></span> Mahasiswa</button>
+        <a href="javascript:;" class="close-button blue-button">Batal</a>
+    </form>
+</div>
+<script>
+    $(".create-button").click(function (event) {
+        event.preventDefault();
+        $(".upsert-dialog .actionType").text("Tambah");
+        $(".upsert-dialog form").attr("class", "Insert");
+        $(".upsert-dialog form .id").val(0);
+        $(".modal-layer").css("display", "flex");
+        $(".upsert-dialog").css("display", "block");
+    });
+
+    $(".update-button").click(function (event) {
+        event.preventDefault();
+        $(".upsert-dialog .actionType").text("Ubah");
+        $(".upsert-dialog form").attr("class", "Update");
+        let actionUrl = $(this).attr("href");
+        $.ajax({
+            url: actionUrl,
+            success: function (data) {
+                $(".upsert-dialog .id").val(data.id);
+                $(".upsert-dialog .nim").val(data.nim);
+                $(".upsert-dialog .namaDepan").val(data.namaDepan);
+                $(".upsert-dialog .namaTengah").val(data.namaTengah);
+                $(".upsert-dialog .namaBelakang").val(data.namaBelakang);
+                $(".upsert-dialog .asalSma").val(data.asalSma);
+                $(".upsert-dialog .nomorHp").val(data.nomorHp);
+                $(".upsert-dialog .alamat").val(data.alamat);
+                $(".modal-layer").css("display", "flex");
+                $(".upsert-dialog").css("display", "block");
+            },
+            fail: function () { console.log("Fail to retrieve data, check json result."); },
+            error: function () { console.log("Internal Server Error, check server-side."); }
+        });
+    });
+
+    $(".upsert-dialog form").submit(function (event) {
+        event.preventDefault();
+        $(".validation-message").text("");
+        let actionType = $(".upsert-dialog form").attr("class");
+        let urlAction = "/Mahasiswa/Save";
+        if (actionType === "Update") {
+            let id = $(".upsert-dialog .id").val();
+            urlAction = `/Mahasiswa/Save/${id}`;
+        }
+        var tokenHelper = '@Html.AntiForgeryToken()';
+        let token = $(tokenHelper).val();
+        let viewModel = {
+            "id": $(".upsert-dialog .id").val(),
+            "nim": $(".upsert-dialog .nim").val(),
+            "namaDepan": $(".upsert-dialog .namaDepan").val(),
+            "namaTengah": $(".upsert-dialog .namaTengah").val(),
+            "namaBelakang": $(".upsert-dialog .namaBelakang").val(),
+            "asalSma": $(".upsert-dialog .asalSma").val(),
+            "nomorHp": $(".upsert-dialog .nomorHp").val(),
+            "alamat": $(".upsert-dialog .alamat").val()
+        };
+        $.ajax({
+            method: "POST", //Http Head
+            url: urlAction,
+            data: JSON.stringify(viewModel), //HTTP Body
+            dataType: "json", //Http Header
+            contentType: "application/json; charset=utf-8", //Http Header
+            headers: { //Http Header
+                "__RequestVerificationToken": token
+            },
+            success: function (response) {
+                if (response.success) {
+                    location.reload();
+                } else {
+                    validateForm(response.validations);
+                }
+            },
+            fail: function () { alert("Fail to retrieve data, check json result."); },
+            error: function () { alert("gagal ubah data mahasiswa"); }
+        });
+    });
+
+    function validateForm(validations) {
+        for (let validation of validations) {
+            $(`.upsert-dialog form [data-for=${validation.propertyName}]`).text(validation.errorMessage);
+        }
+    }
+</script>

@@ -1,0 +1,114 @@
+﻿@using IGLOUniversity.ViewModel.RencanaStudi
+@model RencanaStudiMahasiswaIndexVM
+
+@{
+    if (ViewBag.Role == "Administrator")
+    {
+        ViewData["Title"] = "Rencana Studi Detail";
+    }
+    else
+    {
+        ViewData["Title"] = "Rencana Studi-Ku";
+    }
+
+}
+@section breadCrumbs{
+    <span>Selamat Datang di aplikasi Universitas IGLO</span>
+}
+@section modalDialog{
+    <div class="modal-layer">
+        <partial name="_InsertRencanaStudiDialog" />
+        <partial name="_DeleteRencanaStudiDialog" />
+    </div>
+    <script>
+        $(".close-button").click(function (event) {
+            $(".modal-layer").removeAttr("style");
+            $(".popup-dialog").removeAttr("style");
+            location.reload();
+        });
+    </script>
+}
+
+
+@{
+    if (ViewBag.Role == "Administrator")
+    {
+        <h1>Atur Rencana Studi >> Detail</h1>
+    }
+    else
+    {
+        <h1>Rencana Studi-Ku</h1>
+    }
+
+}
+
+<div class="grid-container category-index">
+    <br />
+    <div class="row mb-2">
+        <label class="col-sm-2">NIM</label>
+        <label class="col-sm-6">@Model.Nim</label>
+    </div>
+    <div class="row mb-2">
+        <label class="col-sm-2">Nama</label>
+        <label class="col-sm-6">@Model.Nama</label>
+    </div>
+    <div class="row mb-2">
+        <label class="col-sm-2">Asal SMA</label>
+        <label class="col-sm-6">@Model.AsalSma</label>
+    </div>
+    @if (ViewBag.Role != "Administrator")
+    {
+        <div class="row mb-2">
+            <label class="col-sm-2">Total SKS</label>
+            <label class="col-sm-6">@Model.TotalSks</label>
+        </div>
+    }
+    <br />
+    <a asp-action="GetId" asp-route-id="@Model.IdMahasiswa" class="blue-button create-button">Tambah</a>
+    <table>
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Mata Kuliah</th>
+                <th>SKS</th>
+                <th>Semester</th>
+                <th>Kapasitas</th>
+                <th>Status</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Grids)
+            {
+                <tr>
+                    <td>@item.Kelas</td>
+                    <td>@item.MataKuliah</td>
+                    <td>@item.Sks</td>
+                    <td>@item.Semester</td>
+                    <td>@item.Kapasitas</td>
+                    <td>@item.Status</td>
+                    <td>
+                        @if (ViewBag.Role == "Administrator")
+                        {
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="blue-button delete-button">Hapus</a>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="7">
+                    <div class="pagination">
+                        <div>
+                            @for (int index = 1; index <= Model.TotalPages; index++)
+                            {
+                                <a asp-route-page="@index">@index</a>
+                            }
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</div>

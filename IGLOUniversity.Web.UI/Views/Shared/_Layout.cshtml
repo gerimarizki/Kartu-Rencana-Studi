@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - IGLO University</title>
+    <link rel="stylesheet" href="~/css/normalize.css" />
+    <link rel="stylesheet" href="~/css/font-awesome.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <script src="~/js/jquery-3.6.0.js"></script>
+</head>
+
+@{
+    if(ViewBag.Role != "Administrator")
+    {
+        ViewBag.Role = "Mahasiswa";
+    }
+    var username = (ViewBag.Username == null) ? "Anonymous" : ViewBag.Username;
+    var role = (ViewBag.Role == null) ? "Guest" : ViewBag.Role;
+}
+
+<body class="main-body" data-role="@role">
+    <partial name="_Menu" />
+    <header>
+        <div class="bread-crumbs">
+            @RenderSection("breadCrumbs", required: true)
+        </div>
+        <div class="user-wrapper">
+            <div class="user">
+                <span class="full-name">@username</span>
+                <span class="role">@role</span>
+            </div>
+            <div class="sign-out">
+                <a asp-controller="User" asp-action="Logout">
+                    <i class="fas fa-sign-out-alt"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <partial name="_Footer" />
+    @RenderSection("modalDialog", required:false)
+</body>
+</html>

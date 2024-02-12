@@ -1,0 +1,2 @@
+﻿Scaffold-DbContext "Server=GERIMARIZKI;Database=IGLOUniversity;Trusted_Connection=True; TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -force
+Scaffold-DbContext "Server=GERIMARIZKI;Database=IGLOUniversity; user=sa; password=indocyber;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models

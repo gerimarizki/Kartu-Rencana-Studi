@@ -1,0 +1,51 @@
+﻿<div class="popup-dialog delete-dialog">
+    <header>
+        <h1>Delete Mahasiswa</h1>
+    </header>
+    <div>
+        <p>Hapus Mahasiswa ini?</p>
+        <a href="javascript:;" class="blue-button submit-delete">Delete</a>
+        <a href="javascript:;" class="close-button blue-button">Batal</a>
+    </div>
+</div>
+
+<div class="popup-dialog fail-delete-dialog">
+    <header>
+        <h1>gagal Hapus Mahasiswa</h1>
+        <a href="javascript:;" class="close-button">
+            <i class="fas fa-window-close"></i>
+        </a>
+    </header>
+    <div class="fail-container">
+        <p>Tidak bisa hapus mahasiswa ini</p>
+    </div>
+</div>
+
+<script>
+    $(".delete-button").click(function (event) {
+        event.preventDefault();
+        let actionUrl = $(this).attr("href");
+        $(".submit-delete").attr("href", actionUrl);
+        $(".modal-layer").css("display", "flex");
+        $(".delete-dialog").css("display", "block");
+    });
+
+    $(".submit-delete").click(function (event) {
+        event.preventDefault();
+        let actionUrl = $(this).attr("href");
+        $.ajax({
+            url: actionUrl,
+            success: function (response) {
+                if (response.success) {
+                    location.reload();
+                } else {
+                    $(".delete-dialog").removeAttr("style");
+                    $(".total-dependencies").text(response.dependent);
+                    $(".fail-delete-dialog").css("display", "block");
+                }
+            },
+            fail: function () { alert("Fail to retrieve data, check json result."); },
+            error: function () { alert("gagal hapus, mahasiswa terhubung dengan data lain"); }
+        });
+    });
+</script>

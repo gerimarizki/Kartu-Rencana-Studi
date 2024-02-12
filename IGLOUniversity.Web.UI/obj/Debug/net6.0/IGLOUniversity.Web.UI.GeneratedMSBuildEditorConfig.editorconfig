@@ -1,0 +1,151 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = IGLOUniversity.Web.UI
+build_property.RootNamespace = IGLOUniversity.Web.UI
+build_property.ProjectDir = D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\C# Latihan\Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest\IGLOUniversity\IGLOUniversity.Web.UI
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/Kelas/FailedUpsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2VsYXNcRmFpbGVkVXBzZXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/Kelas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2VsYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/Kelas/_DeleteKelasDialog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2VsYXNcX0RlbGV0ZUtlbGFzRGlhbG9nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/Kelas/_UpsertKelasDialog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2VsYXNcX1Vwc2VydEtlbGFzRGlhbG9nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/Mahasiswa/FailedUpsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFoYXNpc3dhXEZhaWxlZFVwc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/Mahasiswa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFoYXNpc3dhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/Mahasiswa/_DeleteMahasiswaDialog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFoYXNpc3dhXF9EZWxldGVNYWhhc2lzd2FEaWFsb2cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/Mahasiswa/_UpsertMahasiswaDialog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFoYXNpc3dhXF9VcHNlcnRNYWhhc2lzd2FEaWFsb2cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/MataKuliah/FailedUpsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0YUt1bGlhaFxGYWlsZWRVcHNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/MataKuliah/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0YUt1bGlhaFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/MataKuliah/_DeleteMataKuliahDialog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0YUt1bGlhaFxfRGVsZXRlTWF0YUt1bGlhaERpYWxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/MataKuliah/_UpsertMataKuliahDialog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0YUt1bGlhaFxfVXBzZXJ0TWF0YUt1bGlhaERpYWxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/RencanaStudi/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVuY2FuYVN0dWRpXERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/RencanaStudi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVuY2FuYVN0dWRpXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/RencanaStudi/_DeleteRencanaStudiDialog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVuY2FuYVN0dWRpXF9EZWxldGVSZW5jYW5hU3R1ZGlEaWFsb2cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/RencanaStudi/_InsertRencanaStudiDialog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVuY2FuYVN0dWRpXF9JbnNlcnRSZW5jYW5hU3R1ZGlEaWFsb2cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/Shared/_AuthenticationLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BdXRoZW50aWNhdGlvbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/Shared/_Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/User/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/User/FailedUpsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxGYWlsZWRVcHNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/User/LoginFailed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbkZhaWxlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/User/_DeleteUserDialog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxfRGVsZXRlVXNlckRpYWxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/User/_UpsertUserDialog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxfVXBzZXJ0VXNlckRpYWxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# Latihan/Muhammad-Khaerul-Anwar-BC35-IGLOUniversity-FinalTest/IGLOUniversity/IGLOUniversity.Web.UI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-z7b0j36gob

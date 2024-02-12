@@ -1,0 +1,69 @@
+﻿@using IGLOUniversity.ViewModel.Kelas
+@model KelasIndexVM
+@{
+    ViewData["Title"] = "Kelas Index";
+}
+@section breadCrumbs{
+    <span>Selamat Datang di aplikasi Universitas IGLO</span>
+}
+@section modalDialog{
+    <div class="modal-layer">
+        <partial name="_UpsertKelasDialog" />
+        <partial name="_DeleteKelasDialog" />
+    </div>
+    <script>
+        $(".close-button").click(function (event) {
+            $(".modal-layer").removeAttr("style");
+            $(".popup-dialog").removeAttr("style");
+            location.reload();
+        });
+    </script>
+}
+
+<h1>Master Kelas</h1>
+<div class="grid-container category-index">
+    <br />
+    <a asp-action="Insert" class="blue-button create-button">Tambah Kelas</a>
+    <table>
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Mata Kuliah</th>
+                <th>SKS</th>
+                <th>Semester</th>
+                <th>Kapasitas</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var kelas in Model.Grids)
+            {
+                <tr>
+                    <td>@kelas.Nama</td>
+                    <td>@kelas.Matakuliah</td>
+                    <td>@kelas.Sks</td>
+                    <td>@kelas.Semester</td>
+                    <td>@kelas.Kapasitas</td>
+                    <td>
+                        <a asp-action="Update" asp-route-id="@kelas.Id" class="blue-button update-button">Ubah</a>
+                        <a asp-action="Delete" asp-route-id="@kelas.Id" class="blue-button delete-button">Hapus</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="6">
+                    <div class="pagination">
+                        <div>
+                            @for (int index = 1; index <= Model.TotalPages; index++)
+                            {
+                                <a asp-route-page="@index">@index</a>
+                            }
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</div>

@@ -1,0 +1,69 @@
+﻿@using IGLOUniversity.ViewModel.Mahasiswa
+@model MahasiswaIndexVM
+@{
+    ViewData["Title"] = "Mahasiswa Index";
+}
+@section breadCrumbs{
+    <span>Selamat Datang di aplikasi Universitas IGLO</span>
+}
+@section modalDialog{
+    <div class="modal-layer">
+        <partial name="_UpsertMahasiswaDialog" />
+        <partial name="_DeleteMahasiswaDialog" />
+    </div>
+    <script>
+        $(".close-button").click(function (event) {
+            $(".modal-layer").removeAttr("style");
+            $(".popup-dialog").removeAttr("style");
+            location.reload();
+        });
+    </script>
+}
+
+<h1>Master Mahasiswa</h1>
+<div class="grid-container category-index">
+    <br />
+    <a asp-action="Insert" class="blue-button create-button">Tambah Mahasiswa</a>
+    <table>
+        <thead>
+            <tr>
+                <th>NIM</th>
+                <th>Nama</th>
+                <th>Asal SMA</th>
+                <th>Nomor HP</th>
+                <th>Alamat</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mahasiswa in Model.Grids)
+            {
+                <tr>
+                    <td>@mahasiswa.Nim</td>
+                    <td>@mahasiswa.NamaLengkap</td>
+                    <td>@mahasiswa.AsalSma</td>
+                    <td>@mahasiswa.NomorHp</td>
+                    <td>@mahasiswa.Alamat</td>
+                    <td>
+                        <a asp-action="Update" asp-route-id="@mahasiswa.Id" class="blue-button update-button">Ubah</a>
+                        <a asp-action="Delete" asp-route-id="@mahasiswa.Id" class="blue-button delete-button">Hapus</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="6">
+                    <div class="pagination">
+                        <div>
+                            @for (int index = 1; index <= Model.TotalPages; index++)
+                            {
+                                <a asp-route-page="@index">@index</a>
+                            }
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</div>

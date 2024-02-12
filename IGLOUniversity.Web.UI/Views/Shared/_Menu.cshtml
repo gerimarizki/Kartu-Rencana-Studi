@@ -1,0 +1,17 @@
+﻿@using IGLOUniversity.ViewModel
+<nav>
+    <a class="menu category" asp-controller="Home" asp-action="Index">Home</a>
+    @if (ViewBag.Role == "Administrator")
+    {
+        <a class="menu supplier" asp-controller="User" asp-action="Index">User</a>
+        <a class="menu product" asp-controller="Mahasiswa" asp-action="Index">Master Mahasiswa</a>
+        <a class="menu region" asp-controller="MataKuliah" asp-action="Index">Master Mata Kuliah</a>
+        <a class="menu customer" asp-controller="Kelas" asp-action="Index">Master Kelas</a>
+    }
+    @if (ViewBag.Role == "Administrator")
+    {
+        <a class="menu supplier" asp-controller="RencanaStudi" asp-action="Index">Atur Rencana Studi</a>
+    }else{
+        <a class="menu supplier" asp-controller="RencanaStudi" asp-action="IndexMahasiswa">Atur Rencana Studi</a>
+    }
+</nav>

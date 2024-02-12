@@ -1,0 +1,136 @@
+﻿<div class="popup-dialog upsert-dialog">
+    <header>
+        <h1><span class="actionType"></span> Kelas</h1>
+    </header>
+    <form method="post">
+        <input type="hidden" class="id" />
+        <table>
+            <tbody>
+                <tr>
+                    <td>Nama Kelas:</td>
+                    <td>
+                        <input type="text" class="nama" maxlength="50" required/>
+                        <div class="validation-message" data-for="Nama"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mata Kuliah:</td>
+                    <td>
+                        <select class="dropdownMatakuliah" required></select>
+                        <div class="validation-message" data-for="IdMatakuliah"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Semester:</td>
+                    <td>
+                        <input type="text" class="semester" maxlength="30"/>
+                        <div class="validation-message" data-for="Semester"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Kapasitas:</td>
+                    <td>
+                        <input type="number" class="kapasitas" min="1" max="30" required/>
+                        <div class="validation-message" data-for="Kapasitas"></div>
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+        <button class="blue-button" type="submit"><span class="actionType"></span> Kelas</button>
+        <a href="javascript:;" class="close-button blue-button">Batal</a>
+    </form>
+</div>
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            type: "GET",
+            url: "/Kelas/getKelas",
+            success: function (data) {
+                var option = `<option value="">-- Pilih Kelas --</option>`;
+                for (var item of data) {
+                    let value = item.intValue;
+                    let text = item.text;
+
+                    option += `<option value="${value}">${text}</option>`;
+                    $(".dropdownMatakuliah").html(option);
+                }
+            }
+        });
+    });
+
+    $(".create-button").click(function (event) {
+        event.preventDefault();
+        $(".upsert-dialog .actionType").text("Tambah");
+        $(".upsert-dialog form").attr("class", "Insert");
+        $(".upsert-dialog form .id").val(0);
+        $(".modal-layer").css("display", "flex");
+        $(".upsert-dialog").css("display", "block");
+    });
+
+    $(".update-button").click(function (event) {
+        event.preventDefault();
+        $(".upsert-dialog .actionType").text("Ubah");
+        $(".upsert-dialog form").attr("class", "Update");
+        let actionUrl = $(this).attr("href");
+        $.ajax({
+            url: actionUrl,
+            success: function (data) {
+                $(".upsert-dialog .id").val(data.id);
+                $(".upsert-dialog .nama").val(data.nama);
+                $(".upsert-dialog .dropdownMatakuliah").val(data.idMatakuliah);
+                $(".upsert-dialog .semester").val(data.semester);
+                $(".upsert-dialog .kapasitas").val(data.kapasitas);
+                $(".modal-layer").css("display", "flex");
+                $(".upsert-dialog").css("display", "block");
+            },
+            fail: function () { console.log("Fail to retrieve data, check json result."); },
+            error: function () { console.log("Internal Server Error, check server-side."); }
+        });
+    });
+
+    $(".upsert-dialog form").submit(function (event) {
+        event.preventDefault();
+        $(".validation-message").text("");
+        let actionType = $(".upsert-dialog form").attr("class");
+        let urlAction = "/Kelas/Save";
+        if (actionType === "Update") {
+            let id = $(".upsert-dialog .id").val();
+            urlAction = `/Kelas/Save/${id}`;
+        }
+        var tokenHelper = '@Html.AntiForgeryToken()';
+        let token = $(tokenHelper).val();
+        let viewModel = {
+            "id": $(".upsert-dialog .id").val(),
+            "nama": $(".upsert-dialog .nama").val(),
+            "idMatakuliah": $(".upsert-dialog .dropdownMatakuliah").val(),
+            "semester": $(".upsert-dialog .semester").val(),
+            "kapasitas": $(".upsert-dialog .kapasitas").val()
+        };
+        $.ajax({
+            method: "POST", //Http Head
+            url: urlAction,
+            data: JSON.stringify(viewModel), //HTTP Body
+            dataType: "json", //Http Header
+            contentType: "application/json; charset=utf-8", //Http Header
+            headers: { //Http Header
+                "__RequestVerificationToken": token
+            },
+            success: function (response) {
+                if (response.success) {
+                    location.reload();
+                } else {
+                    validateForm(response.validations);
+                }
+            },
+            fail: function () { alert("Fail to retrieve data, check json result."); },
+            error: function () { alert("gagal ubah data kelas"); }
+        });
+    });
+
+    function validateForm(validations) {
+        for (let validation of validations) {
+            $(`.upsert-dialog form [data-for=${validation.propertyName}]`).text(validation.errorMessage);
+        }
+    }
+</script>

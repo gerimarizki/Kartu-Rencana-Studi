@@ -1,0 +1,141 @@
+﻿<div class="popup-dialog upsert-dialog">
+    <header>
+        <h1><span class="actionType"></span> Rencana Studi</h1>
+    </header>
+    <form method="post">
+        <input type="hidden" class="idMahasiswa" />
+        <table>
+            <tbody>
+                <tr>
+                    <td>Kelas:</td>
+                    <td>
+                        <select class="dropdownKelas" required></select>
+                        <div class="validation-message" data-for="IdKelas"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Kapasitas:</td>
+                    <td>
+                        <select class="dropdownKapasitas" hidden></select>
+                        <input type="text" class="kapasitas" readonly />
+                    </td>
+                </tr>
+                @if (ViewBag.Role != "Administrator")
+                {
+                    <tr>
+                        <td>Status:</td>
+                        <td>
+                            <input class="dropdownStatus" value="Aktif" readonly>
+                            <div class="validation-message" data-for="Status"></div>
+                        </td>
+                    </tr>
+                }else{
+                    <tr>
+                        <td>Status:</td>
+                        <td>
+                            <select class="dropdownStatus" required></select>
+                            <div class="validation-message" data-for="Status"></div>
+                        </td>
+                    </tr>
+                }
+                
+            </tbody>
+        </table>
+        <button class="blue-button" type="submit"><span class="actionType"></span> Rencana Studi</button>
+        <a href="javascript:;" class="close-button blue-button">Batal</a>
+    </form>
+</div>
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            type: "GET",
+            url: "/RencanaStudi/GetDropdown",
+            success: function (data) {
+                var optionKelas = `<option value="">-- Pilih Kelas --</option>`;
+                for (var item of data.dropdownKelas) {
+                    let value = item.intValue;
+                    let text = item.text;
+
+                    optionKelas += `<option value="${value}">${text}</option>`;
+                    $(".dropdownKelas").html(optionKelas);
+                }
+
+                var optionStatus = `<option value="">-- Pilih Status --</option>`;
+                for (var item of data.dropdownStatus) {
+                    let value = item.stringValue;
+                    let text = item.text;
+
+                    optionStatus += `<option value="${value}">${text}</option>`;
+                    $(".dropdownStatus").html(optionStatus);
+                }
+
+                var optionKapasitas = `<option value="">-- Pilih Kapasitas --</option>`;
+                for (var item of data.dropdownKapasitas) {
+                    let value = item.intValue;
+                    let text = item.text;
+
+                    optionStatus += `<option value="${value}">${text}</option>`;
+                    $(".dropdownKapasitas").html(optionStatus);
+                }
+            }
+        });
+    });
+    
+
+    $(".create-button").click(function (event) {
+        event.preventDefault();
+        $(".upsert-dialog .actionType").text("Tambah");
+        $(".upsert-dialog form").attr("class", "Insert");
+        let actionUrl = $(this).attr("href");
+        $.ajax({
+            url: actionUrl,
+            success: function (data) {
+                $(".upsert-dialog .idMahasiswa").val(data.id);
+                $(".modal-layer").css("display", "flex");
+                $(".upsert-dialog").css("display", "block");
+            },
+            fail: function () { console.log("Fail to retrieve data, check json result."); },
+            error: function () { console.log("Internal Server Error, check server-side."); }
+        });
+    });
+
+
+    $(".upsert-dialog form").submit(function (event) {
+        event.preventDefault();
+        $(".validation-message").text("");
+        let actionType = $(".upsert-dialog form").attr("class");
+        let urlAction = "/RencanaStudi/Insert";
+        var tokenHelper = '@Html.AntiForgeryToken()';
+        let token = $(tokenHelper).val();
+        let viewModel = {
+            "idMahasiswa": $(".upsert-dialog .idMahasiswa").val(),
+            "idKelas": $(".upsert-dialog .dropdownKelas").val(),
+            "status": $(".upsert-dialog .dropdownStatus").val()
+        };
+        $.ajax({
+            method: "POST", //Http Head
+            url: urlAction,
+            data: JSON.stringify(viewModel), //HTTP Body
+            dataType: "json", //Http Header
+            contentType: "application/json; charset=utf-8", //Http Header
+            headers: { //Http Header
+                "__RequestVerificationToken": token
+            },
+            success: function (response) {
+                if (response.success) {
+                    location.reload();
+                } else {
+                    validateForm(response.validations);
+                }
+            },
+            fail: function () { alert("Fail to retrieve data, check json result."); },
+            error: function () { alert("gagal ubah data user"); }
+        });
+    });
+
+    function validateForm(validations) {
+        for (let validation of validations) {
+            $(`.upsert-dialog form [data-for=${validation.propertyName}]`).text(validation.errorMessage);
+        }
+    }
+</script>
